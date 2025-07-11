@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Where Should We Travel, My Love?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="welcome-screen">
+    <h1>🌍 Our Dream Vacation 💖</h1>
+    <p>Let’s find out where we should go together, baby 😘</p>
+    <button onclick="startQuiz()">Start the Quiz</button>
+    <button id="music-toggle" onclick="toggleMusic()">🔊</button>
+  </div>
+  <div class="quiz-screen hidden">
+  <h2 id="question-text">Loading question...</h2>
+  <div id="options-container"></div>
+</div>
+
+  
+
+  <!-- Background music -->
+  <audio id="bg-music" loop>
+    <source src="music.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
